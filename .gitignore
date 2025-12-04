@@ -219,3 +219,20 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 module-6/deployment/docker-compose.yml
+
+# LangGraph API and checkpoint files
+.langgraph_api/
+.langgraph_checkpoint.*
+.langgraph_ops.pckl
+.langgraph_retry_counter.pckl
+store.pckl
+store.vectors.pckl
+
+# API Keys and Environment Variables (if any are accidentally created)
+*.env.local
+.env.local
+.env.*.local
+config/secrets.json
+credentials.json
+openai_key.txt
+
